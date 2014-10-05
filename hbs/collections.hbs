@@ -1,0 +1,25 @@
+<div style="height:2em;"></div>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="large-12 columns">
+
+            <ul class="small-block-grid-2 large-block-grid-3">
+
+                {{#each collections}}
+                <li>
+                    <a class="th"><img {{bind-attr src=path}}/></a>
+                    <br>
+                    <h4>{{name}}</h4>
+                </li>
+                {{/each}}
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
