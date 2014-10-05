@@ -1,4 +1,4 @@
-['application'].forEach(function(template){
+['application', 'menu'].forEach(function(template){
     $.ajax({
         url: '/hbs/'+template+'.hbs',
         dataType: 'text',
