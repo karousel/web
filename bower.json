@@ -1,0 +1,18 @@
+{
+  "name": "Karousel-Web",
+  "version": "0.0.0",
+  "authors": [
+    "Mihir Singh <hello@mihirsingh.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.7.0"
+  }
+}
